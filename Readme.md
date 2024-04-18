@@ -14,7 +14,7 @@ O desafio é consumir o arquivo db.json para simular um banco de dados e ofertar
 
 Segue endpoints aguardados:
 
-- GET (Todos, por id)
+- GET (Buscar todos, buscar por id)
 - POST (Salvar)
 - PUT (Editar)
 - DELETE (Remover)
