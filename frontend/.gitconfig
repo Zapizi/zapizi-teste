@@ -1,0 +1,5 @@
+[user]
+	name = Jorge H Frasson
+	email = jorge.frasson147@gmail.com
+[credential]
+	helper = "!f() { /home/node/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /tmp/vscode-remote-containers-7c472d7a-a62f-4331-815d-f691abf7dd58.js git-credential-helper $*; }; f"

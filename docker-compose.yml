@@ -1,0 +1,27 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - mock_app_net
+    volumes:
+      - ./frontend:/home/node
+      - frontend-volume:/home/node/node_modules
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "3002:3000"
+    networks:
+      - mock_app_net
+
+volumes:
+  frontend-volume:
+
+networks:
+  mock_app_net:
+    driver: bridge
+
+
