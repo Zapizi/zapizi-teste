@@ -21,7 +21,7 @@ Segue endpoints aguardados:
 
 Desafio:
 
-Utilizar a api "https://webmaniabr.com/api/" para consultar um CEP e cadastrar um endereço para o usuário, criando uma tabela no json de endereços e vinculando um usuario a um endereço. Consultar o site para documentação da API.
+Utilizar a api "[https://webmaniabr.com/api/](https://webmaniabr.com/docs/rest-api-cep-ibge/)" para consultar um CEP e cadastrar um endereço para o usuário, criando uma tabela no json de endereços e vinculando um usuario a um endereço. Consultar o site para documentação da API.
 
 ## Como rodar a aplicação
 ```
